@@ -1,0 +1,43 @@
+svg{
+    border: 1px solid #ccc;
+}
+
+.axis .domain{
+    stroke: none;
+}
+
+.x line{
+    stroke: white;
+}
+
+.tooltip{
+    position:fixed;
+    opacity: 0;
+    pointer-events: none;/* 避免出現連結或其他行為 */
+    background: #eee;
+    max-width: 400x;
+}
+.tip-header{
+    border-bottom: 2px solid white;
+    padding: 0rem 1rem;
+    margin: 0 0 0 -0.3em;
+}
+.tip-body{
+    padding: 0.2rem 0;
+}
+h3,h4{
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0 0 0 -1.5em;
+}
+h4{
+    font-weight: normal;
+}
+.tip-info{
+    margin: 0 0 0 -1.5em;
+    padding: 0rem 1em;
+    font-size: 0.8em;
+}
+.tip-info:nth-of-type(even){
+    background: #e0e0e0;
+}

@@ -1,0 +1,52 @@
+svg,.selected-container{
+    border: 1px solid #ccc;
+}
+
+body{
+    display: flex;
+}
+
+.selected-container{
+   display: flex;
+   flex-direction: column;
+   margin-left: 1rem;
+   margin: 1.25em 1em 0 1em;
+}
+
+.selected-header{
+    background: #f0f0ff;
+    color: #777;
+    padding: 0.5rem 0.5rem;
+    text-align: left;
+    margin: -1.2em 0 0 -1.25em
+}
+
+.selected-body{
+    overflow: auto;
+    font-size: 0.8em;
+    cursor: default;
+    margin: 0 0 0 -2.1em;
+}
+
+.selected-title{
+    font-weight: bold;
+}
+
+.selected-element{
+    margin: 0.5em;
+    padding: 0.5em;
+    transition: background-color 200ms ease;
+}
+
+.selected-element:hover{
+    background-color: #f0f0f0;
+}
+.axis .domain{
+    stroke: #bbb;
+}
+
+.axis .tick line{
+    stroke: #bbb;
+    stroke-width: 0.5;
+    stroke-dasharray: 4,2;
+}
