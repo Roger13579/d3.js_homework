@@ -1,5 +1,5 @@
 // get csv file
-d3.csv('../data/movies.csv', type).then(
+d3.csv('/movies.csv', type).then(
     res => {
         ready(res)
         // console.log(res)
